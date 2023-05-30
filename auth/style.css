@@ -1,0 +1,106 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("image.png");
+  font-family: Arial, sans-serif;
+}
+
+/* Login Form Container */
+.LoginFormContainer {
+  max-width: 5000px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.LoginFormContainer__Title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #FFF;
+  text-align: center;
+}
+
+.LoginFormContainer__Form {
+  margin-bottom: 20px;
+}
+
+.LoginFormContainer__InputContainer {
+  margin-bottom: 20px;
+}
+
+.LoginFormContainer__Label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #FFF;
+}
+
+.LoginFormContainer__Input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #444;
+  color: #FFF;
+}
+
+.LoginFormContainer__ButtonContainer {
+  text-align: center;
+  background-color: #191919;
+  height: 40px;
+}
+
+.LoginFormContainer__Button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  background-color: #2e2e2e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.LoginFormContainer__Text {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.LoginFormContainer__Text a {
+  color: #999;
+  text-decoration: none;
+}
+
+.LoginFormContainer__Text a:hover {
+  text-decoration: underline;
+}
+
+.LoginFormContainer__ImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.LoginFormContainer__Image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url('discord.svg');
+  background-size: cover;
+  background-position: center;
+}
